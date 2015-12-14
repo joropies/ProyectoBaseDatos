@@ -16,6 +16,22 @@
         <servlet-name>ServletBuscarPeliculas</servlet-name>
         <servlet-class>com.jc.controladores.ServletBuscarPeliculas</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletGuardarDance</servlet-name>
+        <servlet-class>com.jc.model.ServletGuardarDance</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletBuscarTodosDance</servlet-name>
+        <servlet-class>com.jc.controladores.ServletBuscarTodosDance</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_CAN_MEX_BuscarTodos_Proveedores</servlet-name>
+        <servlet-class>com.jc.controladores.Servlet_CAN_MEX_BuscarTodos_Proveedores</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Servlet_CAN_MEX_InsertarProveedor</servlet-name>
+        <servlet-class>com.jc.controladores.Servlet_CAN_MEX_InsertarProveedor</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Algo</servlet-name>
         <url-pattern>/hola</url-pattern>
@@ -31,6 +47,22 @@
     <servlet-mapping>
         <servlet-name>ServletBuscarPeliculas</servlet-name>
         <url-pattern>/buscar-peliculas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletGuardarDance</servlet-name>
+        <url-pattern>/guardar-dance</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletBuscarTodosDance</servlet-name>
+        <url-pattern>/dance-todos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_CAN_MEX_BuscarTodos_Proveedores</servlet-name>
+        <url-pattern>/buscar-proveedor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Servlet_CAN_MEX_InsertarProveedor</servlet-name>
+        <url-pattern>/Servlet_CAN_MEX_InsertarProveedor</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
